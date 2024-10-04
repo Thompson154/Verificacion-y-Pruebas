@@ -1,0 +1,19 @@
+Mock QA preguntar chat gpt de una mejor manera
+PASOS PARA CREAR UN MOCK
+
+1) Verificar que nuestro metodo bajo testeo UAT acepte una instancia del
+objeto que queremos mockear(objeto falso)
+       - que el objeto tenga el metodo SET
+       - que tengamos un constructor parametrizado
+       0 cualquira de los dos
+2) cuando estemos creado el test necesitamos crear el Objeto Falso
+
+- Del objeto que somos dependientes creamos el objeto Falso no el metodo del objeto el objeto en si.
+
+3) Necesitamos identificar el metodo y su comportamiento del objeto falso, para configurar como se comportara
+con especificos datos de entrada.
+
+4) Uno de los importantes donde ocurre la falla, tenemos que USAR el objeto falso, usar el
+metodo que se verifico en el paso 1
+
+5) verificar que estamos usando el metodo falso y su comportamiento
